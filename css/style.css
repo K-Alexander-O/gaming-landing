@@ -70,6 +70,9 @@ body {
   transform: translateY(-5px);
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
 }
+.wrapper-hero-container {
+  max-width: 1515px;
+}
 
 .hero-container {
   position: relative;
@@ -102,6 +105,10 @@ body {
   position: absolute;
   top: -150px;
   right: 70px;
+}
+
+.all-wrapper-trend {
+  max-width: 1450px;
 }
 
 .wrapper-trend {
@@ -147,24 +154,14 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  flex-wrap: nowrap;
+  grid-gap: 200px;
+  margin-top: 20px;
+  margin-right: 50px;
 }
 
-.fire-icon-1 {
-  position: absolute;
-  left: 220px;
-}
-.fire-icon-2 {
-  position: absolute;
-  left: 520px;
-}
-.fire-icon-3 {
-  position: absolute;
-  right: 570px;
-}
-.fire-icon-4 {
-  position: absolute;
-  right: 260px;
+.all-wrapper-spider {
+  max-width: 1500px;
 }
 .wrapper-spider {
   position: relative;
@@ -206,6 +203,10 @@ body {
   z-index: 2;
 }
 
+.all-wrapper-courses {
+  max-width: 1550px;
+}
+
 .wrapper-courses {
   position: relative;
   margin-top: 550px;
@@ -234,7 +235,7 @@ body {
   left: 330px;
 }
 
-.course-content-1{
+.course-content-1 {
   position: absolute;
   top: 470px;
   left: 270px;
@@ -246,36 +247,34 @@ body {
   transition: 0.2s all; */
 }
 
-.course-content-2{
+.course-content-2 {
   position: absolute;
   top: 470px;
   left: 590px;
-
 }
-.course-content-3{
+.course-content-3 {
   position: absolute;
   top: 470px;
   right: 470px;
 }
 
-.course-content-4{
+.course-content-4 {
   position: absolute;
   top: 470px;
   right: 230px;
 }
 
-.course-content-5{
+.course-content-5 {
   position: absolute;
   top: 700px;
   left: 620px;
 }
 
-.course-content-6{
+.course-content-6 {
   position: absolute;
   top: 700px;
   right: 585px;
 }
-
 
 .course-content-1::after,
 .course-content-2::after,
@@ -285,11 +284,11 @@ body {
 .course-content-6::after {
   content: "";
   display: inline-block;
-  width: 20px; 
-  height: 20px; 
-  background: url(../icons/arrow.svg) no-repeat center center; 
-  background-size: contain; 
-  margin-left: 5px; 
+  width: 20px;
+  height: 20px;
+  background: url(../icons/arrow.svg) no-repeat center center;
+  background-size: contain;
+  margin-left: 5px;
 }
 
 .course-content-1,
@@ -301,100 +300,124 @@ body {
   position: absolute;
   color: #ffffff;
   text-decoration: none;
-  
 }
 .course-content-1:hover::after {
-  left: 87px; 
+  left: 87px;
 }
 .course-content-1::after {
   position: absolute;
   bottom: -35px;
-  transition: left 0.3s ease; 
+  transition: left 0.3s ease;
 }
 
 .course-content-2:hover::after {
-  left: 70px; 
+  left: 70px;
 }
 .course-content-2::after {
   position: absolute;
   bottom: -35px;
-  transition: left 0.3s ease; 
+  transition: left 0.3s ease;
 }
 .course-content-3:hover::after {
-  left: 70px; 
+  left: 70px;
 }
 .course-content-3::after {
   position: absolute;
   bottom: -35px;
-  transition: left 0.3s ease; 
+  transition: left 0.3s ease;
 }
 
 .course-content-4:hover::after {
-  left: 51px; 
+  left: 51px;
 }
 .course-content-4::after {
   position: absolute;
   bottom: -35px;
-  transition: left 0.3s ease; 
+  transition: left 0.3s ease;
 }
 
 .course-content-5:hover::after {
-  left: 46px; 
+  left: 46px;
 }
 .course-content-5::after {
   position: absolute;
   bottom: -35px;
-  transition: left 0.3s ease; 
+  transition: left 0.3s ease;
 }
 
 .course-content-6:hover::after {
-  left: 42px; 
+  left: 42px;
 }
 .course-content-6::after {
   position: absolute;
   bottom: -35px;
-  transition: left 0.3s ease; 
+  transition: left 0.3s ease;
 }
 
 .course-content-1::after {
   position: absolute;
   bottom: -35px;
-  left: 75px; 
+  left: 75px;
 }
 
 .course-content-2::after {
   position: absolute;
   bottom: -35px;
-  left: 58px; 
+  left: 58px;
 }
 .course-content-3::after {
   position: absolute;
   bottom: -35px;
-  left: 60px; 
+  left: 60px;
 }
 
 .course-content-4::after {
   position: absolute;
   bottom: -35px;
-  left: 39px; 
+  left: 39px;
 }
 
 .course-content-5::after {
   position: absolute;
   bottom: -35px;
-  left: 35px; 
+  left: 35px;
 }
 
 .course-content-6::after {
   position: absolute;
   bottom: -35px;
-  left: 30px; 
+  left: 30px;
 }
 
+.all-wrapper-projects {
+  max-width: 1500px;
+}
 
-
-
-
-
-
-
+.wrapper-projects button{
+  margin-top: 100px;
+  margin-left: 710px;
+}
+.wrapper-projects h1, p{
+  text-align: center;
+}
+.title-projects{
+margin-top: 100px;
+font-size: 35px;
+}
+.text-projects{
+  margin-top: 30px;
+}
+.img-project-section-1 {
+  display: flex;
+  justify-content: center;
+}
+.img-projects-1 {
+  margin-top: 100px;
+}
+.img-project-section-2{
+  display: flex;
+  justify-content: center;
+}
+.img-projects-2{
+  margin-top: 25px;
+}
